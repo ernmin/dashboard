@@ -19,10 +19,19 @@
 
   .header {
     background-color: white;
-    display: grid;
     grid-column: 2 / 4;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
   }
 
 .main {
-    background-color: lightgray;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.projects{
+    background-color: rgb(174, 235, 147);
+    grid-column: 0 / 1;
+    grid-row: 0 / 4;
 }
