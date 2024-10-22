@@ -111,6 +111,26 @@
 #handle {
   grid-row: 2 / 3;
   grid-column: 1 / 2;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 1fr 2fr;
+}
+
+#hello {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2
+}
+
+#hello-name {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+#profile-person {
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+  height: 50px;
+  width: auto;
 }
 
 .buttons{
