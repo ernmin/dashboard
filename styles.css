@@ -25,6 +25,11 @@
 }
 
 .icons {
+  max-width: 30%;
+  height: auto;
+}
+
+#icon-dashboard {
   max-width: 50%;
   height: auto;
 }
@@ -37,10 +42,17 @@
 }
 
 #sidebar-main {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 5px;
-  
+}
+
+#sidebar-main > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
 }
 
 #sidebar-extra {
