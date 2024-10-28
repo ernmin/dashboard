@@ -193,7 +193,8 @@ button{
   background-color: rgb(223, 221, 221);
   grid-column: 0 / 1;
   grid-row: 1 / 3;
-  padding: 20px
+  padding: 20px;
+  padding-top: 10px;
 }
 
 .title{
@@ -206,7 +207,7 @@ button{
   grid-template-columns: repeat(4, minmax(250px, 1fr));
   background-color: rgb(223, 221, 221);
   gap: 20px 20px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .card {
@@ -224,10 +225,11 @@ button{
 .card-extra {
   height: 240px;
   border-style: none;
+  padding: 10px 10px;
 }
 
 .extra-area {
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .announcements{
@@ -235,6 +237,39 @@ button{
   grid-column: 2 / 3;
   grid-row: 1 / 2;
   padding: 20px;
+}
+
+#announcement-card {
+  display: grid;
+  grid-template-rows: repeat(3, 80px);
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+
+#announcement-card > div {
+  padding: 10px 10px;
+  text-align: left;
+  align-self: start;
+  font-size: smaller;
+  color: rgb(134, 133, 133);
+
+}
+
+.sub-announcement > .sub-header {
+  font-weight: bold;
+  color:black
+}
+
+#announcement-two {
+  border-top: solid thin;
+  border-color: rgb(223, 221, 221);
+}
+
+#announcement-three {
+  border-top: solid thin;
+  border-color: rgb(223, 221, 221);
 }
 
 .trending{
