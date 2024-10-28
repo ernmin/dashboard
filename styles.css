@@ -209,7 +209,7 @@ button{
   padding-top: 20px;
 }
 
-.card-area .card {
+.card {
   background-color: #FFFFFF;
   color: black;
   text-align: center;
@@ -221,16 +221,26 @@ button{
   border-left-width: 0.4rem;
 }
 
+.card-extra {
+  height: 240px;
+}
+
+.extra-area {
+  padding-top: 20px;
+}
+
 .announcements{
-  background-color: lightpink;
+  background-color: rgb(223, 221, 221);
   grid-column: 2 / 3;
   grid-row: 1 / 2;
+  padding: 20px;
 }
 
 .trending{
-  background-color: aquamarine;
+  background-color: rgb(223, 221, 221);
   grid-column: 2 / 3;
   grid-row: 2 / 3;
+  padding: 20px;
 }
 
 .invert {
