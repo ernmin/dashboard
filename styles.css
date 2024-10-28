@@ -223,6 +223,7 @@ button{
 
 .card-extra {
   height: 240px;
+  border-style: none;
 }
 
 .extra-area {
@@ -241,6 +242,26 @@ button{
   grid-column: 2 / 3;
   grid-row: 2 / 3;
   padding: 20px;
+  padding-top: 0px;
+}
+
+#trending-card {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-template-rows: repeat(4, 1fr);
+  padding: 10px;
+}
+
+#trending-card > img {
+  height: 50px;
+  width: auto;
+  justify-self: center;
+  align-self: center;
+}
+
+.other-profiles {
+  align-self: center;
+  text-align: left;
 }
 
 .invert {
